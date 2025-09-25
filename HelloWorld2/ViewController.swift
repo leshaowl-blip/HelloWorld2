@@ -9,6 +9,8 @@ import UIKit
 
 final class ViewController: UIViewController {
 
+    @IBOutlet var greetingLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
